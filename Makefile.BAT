@@ -1,0 +1,1 @@
+cbp2make.exe -in "%1" -unix -out Makefile
