@@ -9,4 +9,4 @@ I don't help OPL DB fans
 
 [__Buy me a beer__](https://www.paypal.com/paypalme/ElisraPS2)
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=israpps&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=israpps&theme=github_dark&title_color=ff6800)](https://github.com/anuraghazra/github-readme-stats)
