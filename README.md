@@ -12,5 +12,18 @@ I don't help OPL DB fans
 [__Buy me a beer__](https://www.paypal.com/paypalme/ElisraPS2)
 
 
-## my projects
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=wLaunchELF_ISR&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
+## pinned repo's:
+----
+<!---
+&theme=github_dark&icon_color=a0a0a0&hide_border=1
+--->
+
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=wLaunchELF_ISR&theme=github_dark&icon_color=a0a0a0&hide_border=1)](https://github.com/anuraghazra/github-readme-stats)
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=FunTuna-Fork&theme=github_dark&icon_color=a0a0a0&hide_border=1)](https://github.com/anuraghazra/github-readme-stats)
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=HDL-Batch-installer&theme=github_dark&icon_color=a0a0a0&hide_border=1)](https://github.com/anuraghazra/github-readme-stats)
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=FreeMcBoot-Installer&theme=github_dark&icon_color=a0a0a0&hide_border=1)](https://github.com/anuraghazra/github-readme-stats)
+
