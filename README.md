@@ -10,3 +10,7 @@ Find me at:
 I don't help OPL DB fans
 
 [__Buy me a beer__](https://www.paypal.com/paypalme/ElisraPS2)
+
+
+## my projects
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=wLaunchELF_ISR&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
