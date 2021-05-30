@@ -16,18 +16,16 @@ I don't help OPL DB fans
 ----
 <!---
 &theme=github_dark&icon_color=a0a0a0&hide_border=1
+&hide_border=0
 --->
 
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=wLaunchELF_ISR&theme=github_dark&icon_color=a0a0a0&hide_border=0)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=wLaunchELF_ISR&theme=github_dark&icon_color=a0a0a0)
 ](github.com/israpps/wLaunchELF_ISR)
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=FunTuna-Fork&theme=github_dark&icon_color=a0a0a0&hide_border=0)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=FunTuna-Fork&theme=github_dark&icon_color=a0a0a0)
 ](github.com/israpps/FunTuna-Fork)
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=HDL-Batch-installer&theme=github_dark&icon_color=a0a0a0&hide_border=0)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=HDL-Batch-installer&theme=github_dark&icon_color=a0a0a0)
 ](github.com/israpps/HDL-Batch-installer)
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=FreeMcBoot-Installer&theme=github_dark&icon_color=a0a0a0&hide_border=0)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=FreeMcBoot-Installer&theme=github_dark&icon_color=a0a0a0)
 ](github.com/israpps/FreeMcBoot-Installer)
 
