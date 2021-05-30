@@ -23,7 +23,7 @@ I don't help OPL DB fans
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=FunTuna-Fork&theme=github_dark&icon_color=a0a0a0&hide_border=1)](https://github.com/anuraghazra/github-readme-stats)
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=HDL-Batch-installer&theme=github_dark&icon_color=a0a0a0&hide_border=1)](https://github.com/anuraghazra/github-readme-stats)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=HDL-Batch-installer&theme=github_dark&icon_color=a0a0a0&hide_border=1)](github.com/israpps/HDL-Batch-installer)
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=israpps&repo=FreeMcBoot-Installer&theme=github_dark&icon_color=a0a0a0&hide_border=1)](https://github.com/anuraghazra/github-readme-stats)
 
