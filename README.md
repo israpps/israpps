@@ -1,6 +1,7 @@
 
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=israpps&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=israpps&theme=github_dark)
+](https://github.com/israpps)
 
 ### Just a guy trying to become a software developer
 
