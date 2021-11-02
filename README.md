@@ -9,7 +9,6 @@
 <details>
   <summary> <b> Contact me </b> </summary>
   
-- [__Twitter__](https://twitter.com/Mati_isra?s=09) _(mostly unused)_
 - [Personal e-mail](mailto:israelson-matias@hotmail.com)
 - __Discord:__ `El_isra#4175`
 </details>
