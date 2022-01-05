@@ -4,7 +4,7 @@
 
 |    FILE   |         FUNCTION         |         COLOR          |COLOR (BGR)| function/Context
 ----------- | ------------------------ | ---------------------- | --------- | --------------------------------------------------------------------------------------- |
-`padhook.c` | `t_loadELF()`            | Blue green 		| `0x80FF00`| SifInitRpc(0); 
+`padhook.c` | `t_loadELF()`            | ![Blue green](https://github.com/israpps/israpps/blob/main/OPLCOLORS/0x80FF00.png)| `0x80FF00`| SifInitRpc(0); 
 `padhook.c` | `t_loadELF()`            | Dark Red 		| `0x80FF00`| sbv_patch_disable_prefix_check();
 `padhook.c` | `t_loadELF()`            | blue sky 		| `0xFF8000`| Modules loading(SIO2MAN, MCMAN, USBD, USBHDFSD), WipeUserMemory(), flushcache(), LoadELF
 `padhook.c` | `t_loadELF()`            | orange 		| `0x0080FF`| ExecPS2()
