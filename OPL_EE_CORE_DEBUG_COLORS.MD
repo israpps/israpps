@@ -4,16 +4,16 @@
 
 |    FILE   |         FUNCTION         |         COLOR          |COLOR (BGR)| function/Context
 ----------- | ------------------------ | ---------------------- | --------- | --------------------------------------------------------------------------------------- |
-`padhook.c` | `t_loadELF()`            | ![Blue green](https://github.com/israpps/israpps/blob/main/OPLCOLORS/0x80FF00.png)| `0x80FF00`| SifInitRpc(0); 
-`padhook.c` | `t_loadELF()`            | Dark Red 		| `0x80FF00`| sbv_patch_disable_prefix_check();
-`padhook.c` | `t_loadELF()`            | blue sky 		| `0xFF8000`| Modules loading(SIO2MAN, MCMAN, USBD, USBHDFSD), WipeUserMemory(), flushcache(), LoadELF
-`padhook.c` | `t_loadELF()`            | orange 		| `0x0080FF`| ExecPS2()
-`padhook.c` | `t_loadELF()`            | Red 			| `0x0000FF`| Post ExecPS2()
-`padhook.c` | `IGR_Thread()`           | white 			| `0xFFFFFF`|SifInitRpc(0);
-`padhook.c` | `IGR_Thread()`           | blue sky 		| `0xFF8000`| oplIGRShutdown(0);
-`padhook.c` | `IGR_Thread()`           | Red 			| `0x0000FF`| IOP Reset, Remove_Kernel_Hooks(), InitializeTLB(), GetCop0(25)
-`padhook.c` | `IGR_Thread()`           | green 			| `0x00FF00`| Stopping GSM (if active)
-`padhook.c` | `IGR_Thread()`           | blue 			| `0xFF0000`| Stopping PS2RD (if active)
+`padhook.c` | `t_loadELF()`            | ![Blue green](https://img.shields.io/badge/%20-Blue%20green%20-00ff80)| `0x80FF00`| SifInitRpc(0); 
+`padhook.c` | `t_loadELF()`            | ![Dark Red](https://img.shields.io/badge/%20-Dark%20Red%20-800000)    | `0x000080`| sbv_patch_disable_prefix_check();
+`padhook.c` | `t_loadELF()`            | ![Blue Sky](https://img.shields.io/badge/%20-Blue%20Sky%20-0080ff)    | `0xFF8000`| Modules loading(SIO2MAN, MCMAN, USBD, USBHDFSD), WipeUserMemory(), flushcache(), LoadELF
+`padhook.c` | `t_loadELF()`            | ![Orange](https://img.shields.io/badge/%20-Orange%20-ff8000)          | `0x0080FF`| ExecPS2()
+`padhook.c` | `t_loadELF()`            | ![Red](https://img.shields.io/badge/%20-Red%20-ff0000)                | `0x0000FF`| Post ExecPS2()
+`padhook.c` | `IGR_Thread()`           | ![White](https://img.shields.io/badge/%20-White%20-ffffff)	       | `0xFFFFFF`|SifInitRpc(0);
+`padhook.c` | `IGR_Thread()`           | ![Blue Sky](https://img.shields.io/badge/%20-Blue%20Sky%20-0080ff)    | `0xFF8000`| oplIGRShutdown(0);
+`padhook.c` | `IGR_Thread()`           | ![Red](https://img.shields.io/badge/%20-Red%20-ff0000)                | `0x0000FF`| IOP Reset, Remove_Kernel_Hooks(), InitializeTLB(), GetCop0(25)
+`padhook.c` | `IGR_Thread()`           | ![green](https://img.shields.io/badge/%20-Green%20-00ff00)            | `0x00FF00`| Stopping GSM (if active)
+`padhook.c` | `IGR_Thread()`           | ![Blue](https://img.shields.io/badge/%20-Blue%20-0000ff)| `0xFF0000`| Stopping PS2RD (if active)
 `padhook.c` | `IGR_Thread()`           | yellow 		| `0x00FFFF`| SifIopSync()
 `padhook.c` | `IGR_Thread()`           | pink 			| `0xFF80FF`|  SifInitRpc(), SifInitIopHeap(), LoadFileInit(), sbv_patch_enable_lmb()
 `padhook.c` | `IGR_Thread()`           | dark blue 		| `0x800000`| LoadOPLModule(OPL_MODULE_ID_RESETSPU), InGameScreenshot() (If enabled)
