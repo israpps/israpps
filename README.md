@@ -16,7 +16,7 @@
 
 I don't help OPL DB fans
 
-[__Buy me a beer__](https://www.paypal.com/paypalme/ElisraPS2)
+[__Help me buy a PC and a PSX__](https://www.paypal.com/paypalme/ElisraPS2)
 
 #
 <details>
