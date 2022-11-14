@@ -46,17 +46,17 @@ else
   exit -2
 fi
 
-echo Cleaning target directory...
+echo -e "${YELLOW}Cleaning target directory...${NC}"
 sudo rm -rf $PS2DEV
 
-echo Creating folder...
+echo -e "${YELLOW}Creating folder...${NC}"
 sudo mkdir -p $PS2SDK && sudo chmod -R 777 $PS2DEV
 
-echo Cloning and Building PS2DEV
+echo -e "${YELLOW}Cloning and PS2DEV${NC}"
 cd $PS2DEV && git clone https://github.com/ps2dev/ps2dev.git
 
-echo Building SDK...
+echo -e "${YELLOW}Launching Build Script...${NC}"
 sleep 5
 cd ps2dev && ./build-all.sh
-echo EXECUTION FINISHED!
-echo TEST IF SDK WORKS BY COMPILING wLaunchELF or OPL
+echo -e "${GREEN}EXECUTION FINISHED!${NC}"
+echo -e "${YELLOW}TEST IF SDK WORKS BY COMPILING Latest wLaunchELF or OPL${NC}"
