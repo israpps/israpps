@@ -6,6 +6,8 @@ YELLOW='\033[1;33m'
 BLUE='\033[1;34m'
 NC='\033[0m' # No Color
 
+PS2DEVTAG="MASTER"
+
 echo -e "\t\t PS2DEV enviroment installation script by Matias Israelson (AKA: El_isra)\n\n"
 
 #add the following stuff to your enviroment variable, change the path of $PS2DEV to alter the location of the SDK, the value written is the default and recommended one
@@ -26,6 +28,7 @@ do
 	echo "available switches:"
 	echo -e "\t${YELLOW}[--install-apt-dependencies]${NC}: attempt to install the SDK dependencies via apt (CMAKE is also needed, but excluded from this switch)"
 	echo -e "\t${YELLOW}[--profile-add-variables]${NC}   : writes the needed enviroment variables to ~/.profile and reloads profile"
+	echo -e "\t${YELLOW}[--sdk-tag=${BLUE}TAG${YELLOW}]${NC}             : use ${BLUE}TAG${NC} to switch SDK tag, building the specified version of PS2SDK instead of Latest"
 	exit
   fi
 
@@ -38,6 +41,12 @@ do
     sudo apt-get -y install upx-ucl
   fi
 
+  if [[ "$i" = "--sdk-tag=v"* ]]; then
+	echo -e "${YELLOW}- specific SDK tag requested${NC}"
+	PS2DEVTAG="${i#*=}"
+	echo -e "PS2SDK will be built on version ${BLUE}${PS2DEVTAG}${NC}"
+  fi
+  
   if [ "$i" = "--profile-add-variables" ]; then
 	echo -e "${YELLOW}-- adding enviroment variables to ~/.profile...${NC}"
 	echo export PS2DEV=/usr/local/ps2dev>>~/.profile
@@ -84,8 +93,15 @@ sudo rm -rf $PS2DEV
 echo -e "${YELLOW}-- Creating folder...${NC}"
 sudo mkdir -p $PS2SDK && sudo chmod -R 777 $PS2DEV
 
-echo -e "${YELLOW}-- Cloning and PS2DEV${NC}"
+echo -e "${YELLOW}-- Cloning PS2DEV${NC}"
 cd $PS2DEV && git clone https://github.com/ps2dev/ps2dev.git
+
+if [ "$PS2DEVTAG" == "MASTER" ]; then
+    echo -e "${YELLOW}-- latest SDK will be built...${NC}"
+
+    echo -e "${YELLOW}-- PS2DEV:${BLUE}${PS2DEVTAG}${YELLOW} will be built${NC}"
+	git switch $PS2DEVTAG
+fi
 
 echo -e "${YELLOW}-- Launching Build Script...${NC}"
 sleep 5
