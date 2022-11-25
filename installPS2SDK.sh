@@ -98,7 +98,7 @@ cd $PS2DEV && git clone https://github.com/ps2dev/ps2dev.git
 
 if [ "$PS2DEVTAG" == "MASTER" ]; then
     echo -e "${YELLOW}-- latest SDK will be built...${NC}"
-
+else
     echo -e "${YELLOW}-- PS2DEV:${BLUE}${PS2DEVTAG}${YELLOW} will be built${NC}"
 	git switch $PS2DEVTAG
 fi
