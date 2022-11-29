@@ -64,6 +64,7 @@ done
 echo -e "${YELLOW}-- Checking enviroment variables...${NC}"
 if [ -z ${PS2DEV+x} ]; then 
   echo -e "${RED}- PS2DEV is not set${NC}"
+  echo -e "you can fix this by running this script again and passing the following argument ${YELLOW}--profile-add-variables${NC}"
   exit -1
 else
   echo -e "${GREEN}- PS2DEV is set to '$PS2DEV'${NC}"
@@ -71,6 +72,7 @@ fi
 
 if [ -z ${PS2SDK+x} ]; then
   echo -e "${RED}- PS2SDK is not set${NC}"
+  echo -e "you can fix this by running this script again and passing the following argument ${YELLOW}--profile-add-variables${NC}"
   exit -1
 else 
   echo -e "${GREEN}- PS2SDK is set to '$PS2SDK'${NC}"
@@ -78,6 +80,7 @@ fi
 
 if [ -z ${GSKIT+x} ]; then 
   echo -e "${RED}- GSKIT  is not set${NC}";
+  echo -e "you can fix this by running this script again and passing the following argument ${YELLOW}--profile-add-variables${NC}"
   exit -1
 else 
   echo -e "${GREEN}- GSKIT  is set to '$GSKIT${NC}'"
@@ -87,6 +90,7 @@ if [[ $PATH == *$PS2DEV* ]]; then
   echo -e "${GREEN}- PS2DEV variables seem to be included on PATH, double check by yourself!${NC}"
 else
   echo -e "${RED}- Could not find any reference to PS2DEV variable on PATH variable${NC}"
+  echo -e "you can fix this by running this script again and passing the following argument ${YELLOW}--profile-add-variables${NC}"
   exit -2
 fi
 
