@@ -16,11 +16,14 @@ echo -e "\t\t PS2DEV enviroment installation script by Matias Israelson (AKA: El
 #export GSKIT=$PS2DEV/gsKit
 #export PATH=$PATH:$PS2DEV/bin:$PS2DEV/ee/bin:$PS2DEV/iop/bin:$PS2DEV/dvp/bin:$PS2SDK/bin
 
-echo -e "IMPORTANT NOTE. IF USING WSL, YOU NEED TO INSTALL CMAKE WITH ${BLUE}brew.sh${NC}"
-echo -e "DONT USE APT, IT WILL INSTALL OUTDATED CMAKE THAT WILL MAKE COMPILATION FAIL ON A LATE STAGE OF THE BUILDING PROCESS (PS2SDK-Ports more specifically)."
-echo -e "wasting precious time\n\n"
-echo "this script contains a sample of what variables you should add"
-echo "make sure to check the comments on this script."
+if [[ $(grep Microsoft /proc/version) ]]; then
+echo -e "${YELLOW}WARNING: WSL Usage detected! please read the following warning! ${NC}"
+echo -e "YOU NEED TO INSTALL CMAKE WITH ${BLUE}brew.sh${NC}"
+echo -e "${RED}DONT INSTALL IT WITH APT${NC}, IT WILL INSTALL OUTDATED CMAKE THAT WILL MAKE COMPILATION FAIL ON A LATE STAGE OF THE BUILDING PROCESS (PS2SDK-Ports more specifically)."
+echo -e "wasting precious time!!\n\n"
+echo -e "Recommended CMake version is ${RED}3.24.*${NC} or newer"
+read -rsn1 -p"Press any key to continue";echo
+fi
 
 for i in $@
 do 
