@@ -14,7 +14,9 @@
 - [Facebook](https://www.facebook.com/matias.israelson.5)
 </details>
 
-I don't help OPL DB fans
+- [my website](https://israpps.github.io/)
+
+I don't help OPL DB (daily build/10th anyversary/whatever) fans. __ALWAYS USE OFFICIAL OPL__
 
 [__Help me buy a PC__](https://www.paypal.com/paypalme/ElisraPS2)
 
