@@ -17,7 +17,7 @@
 - [my website](https://israpps.github.io/)
 
 
-[__Help me buy a PC__](https://www.paypal.com/paypalme/ElisraPS2)
+[__Help me buy a PC__ (and soon, help me buy food)](https://www.paypal.com/paypalme/ElisraPS2)
 
 #
 <details>
