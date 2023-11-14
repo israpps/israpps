@@ -114,4 +114,5 @@ echo -e "${YELLOW}-- Launching Build Script...${NC}"
 sleep 5
 cd ps2dev && ./build-all.sh
 echo -e "${GREEN}-- EXECUTION FINISHED!${NC}"
+printf '\7'
 echo -e "${YELLOW}TEST IF SDK WORKS BY COMPILING Latest wLaunchELF or OPL${NC}"
