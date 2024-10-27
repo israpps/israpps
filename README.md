@@ -1,9 +1,15 @@
 
+<br />
+<p align="center">
+  <a href="https://israpps.github.io/">
+    <img src="https://raw.githubusercontent.com/israpps/israpps/refs/heads/main/dyson.png" alt="Logo" width="100%" height="auto">
+  </a>
 
-[![Matías's GitHub stats](https://github-readme-stats.vercel.app/api?username=israpps&theme=github_dark)
-](https://github.com/israpps)
-
-### Just a guy trying to become a software developer
+  <p align="center">
+    Just a guy trying to become a software developer 
+    <br />
+  </p>
+</p>  
 
 
 <details>
@@ -17,7 +23,10 @@
 - [my website](https://israpps.github.io/)
 
 
-[__Help me buy a namco sytem 246/256__ (and food)](https://www.paypal.com/paypalme/ElisraPS2)
+[Donations](https://www.paypal.com/paypalme/ElisraPS2)
+
+[![Matías's GitHub stats](https://github-readme-stats.vercel.app/api?username=israpps&theme=github_dark)
+](https://github.com/israpps)
 
 #
 <details>
